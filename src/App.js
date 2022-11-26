@@ -6,11 +6,11 @@ import CardComponent from './components/cards'
 const App = () =>
 {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col overflow-hidden">
       <div>
         <Nav />
       </div>
-      <div className="flex flex-row bg-[#F4F4F4]">
+      <div className="flex flex-row bg-[#F4F4F4] h-screen ">
       <Sidebar />
       <CardComponent />
       </div>

@@ -6,7 +6,7 @@ import CardComponent from './components/cards'
 const App = () =>
 {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden h-screen">
       <div>
         <Nav />
       </div>
